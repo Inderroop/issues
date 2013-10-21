@@ -1,0 +1,7 @@
+C:\Timesheet\Timesheet1\DatabaseLayer\bin\Debug\DatabaseLayer.dll
+C:\Timesheet\Timesheet1\DatabaseLayer\bin\Debug\DatabaseLayer.pdb
+C:\Timesheet\Timesheet1\DatabaseLayer\bin\Debug\DataModelLayer.dll
+C:\Timesheet\Timesheet1\DatabaseLayer\bin\Debug\DataModelLayer.pdb
+C:\Timesheet\Timesheet1\DatabaseLayer\obj\Debug\DatabaseLayer.csprojResolveAssemblyReference.cache
+C:\Timesheet\Timesheet1\DatabaseLayer\obj\Debug\DatabaseLayer.dll
+C:\Timesheet\Timesheet1\DatabaseLayer\obj\Debug\DatabaseLayer.pdb

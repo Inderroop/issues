@@ -1,1 +1,9 @@
+C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\DatabaseLayer.dll
+C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\DataModelLayer.dll
+C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\DatabaseLayer.pdb
+C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\DataModelLayer.pdb
 C:\Timesheet\Timesheet1\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Timesheet\Timesheet1\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Timesheet\Timesheet1\BusinessLayer\obj\Debug\BusinessLayer.pdb

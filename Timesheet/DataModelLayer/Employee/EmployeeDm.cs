@@ -16,3 +16,20 @@ namespace DataModelLayer.Employee
        public DateTime LoginTime { get; set; }
     }
 }
+public class TimeModel
+{
+    public string TimeId { get; set; }
+    public int DayOfMonth { get; set; }
+    public int Month { get; set; }
+    public int Year { get; set; }
+}
+public class InsertEmployeeDm
+{
+    public int newEmployeeId { get; set; }
+    public string newFirstName { get; set; }
+    public string newLastName { get; set; }
+    public string newPhonenumber { get; set; }
+    public string newEmail { get; set; }
+
+
+}

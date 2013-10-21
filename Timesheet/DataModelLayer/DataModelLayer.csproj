@@ -39,17 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Employee\EmployeeDm.cs" />
     <Compile Include="Employee\ProjectDm.cs" />
     <Compile Include="Employee\TaskDm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
-      <Project>{c5d2ecc4-4ae3-4473-b212-680d62041036}</Project>
-      <Name>BusinessLayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Timesheet1\Timesheet1.csproj">
       <Project>{e677629c-0d3f-4bb2-90c7-521b3514249f}</Project>
       <Name>Timesheet1</Name>

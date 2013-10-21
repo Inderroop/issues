@@ -31,7 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Connection\DBConnection.cs" />
     <Compile Include="Employee\EmployeeDL.cs" />
     <Compile Include="Employee\ProjectDL.cs" />
@@ -47,9 +49,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
-      <Project>{c5d2ecc4-4ae3-4473-b212-680d62041036}</Project>
-      <Name>BusinessLayer</Name>
+    <ProjectReference Include="..\DataModelLayer\DataModelLayer.csproj">
+      <Project>{a84f461a-5754-4518-9fe3-319ad3139d9b}</Project>
+      <Name>DataModelLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

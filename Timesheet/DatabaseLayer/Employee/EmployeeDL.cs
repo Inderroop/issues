@@ -7,6 +7,7 @@ using System.Data;
 using DatabaseLayer.Connection;
 using System.Diagnostics;
 using DataModelLayer.Employee;
+using DataModelLayer;
 
 namespace DatabaseLayer.Employee
 {
@@ -14,11 +15,11 @@ namespace DatabaseLayer.Employee
     {
 
         private static SqlConnection connection = DBConnection.GetConnection();
-        public List<EmployeeDL> GetAllEmployees()
+        public List<EmployeeDm> GetAllEmployees()
         {
             string selectStm = "select * from EMPLOYEE_TBL";
             SqlCommand command = new SqlCommand(selectStm, connection);
-            List<EmployeeDL> employeeList = new List<EmployeeDL>();
+            List<EmployeeDm> employeeList = new List<EmployeeDm>();
             try
             {
                 connection.Open();
@@ -46,7 +47,7 @@ namespace DatabaseLayer.Employee
             }
             return employeeList;
         }
-        public EmployeeDL GetEmployeeById(int Id)
+        public EmployeeDm GetEmployeeById(int Id)
         {
 
             string selectstm = "Select * from EMPLOYEE_TBL where EMPLOYEE_ID =@EmployeeID";
@@ -81,7 +82,7 @@ namespace DatabaseLayer.Employee
                 connection.Close();
             }
         }
-        public int InsertEmployee(EmployeeDL employee)
+        public int InsertEmployee(EmployeeDm employee)
         {
             if (!(HasValidPrimaryKey(employee))) return -1;
             string sqlStr = "INSERT INTO EMPLOYEE_TBL "
@@ -129,22 +130,22 @@ namespace DatabaseLayer.Employee
             return true;
         }
 
-        private void SetupCommand(SqlCommand command, EmployeeDL Employee)
+        private void SetupCommand(SqlCommand command, EmployeeDm Employee)
         {
-            command.Parameters.AddWithValue("@EmployeeId", Emp.EmployeeId);
-            command.Parameters.AddWithValue("@email", Employee.email);
+            command.Parameters.AddWithValue("@EmployeeId", Employee.EmployeeId);
+            command.Parameters.AddWithValue("@email", Employee.Email);
             command.Parameters.AddWithValue("@LoginDate", Employee.LoginDate);
             command.Parameters.AddWithValue("@lastName", Employee.LastName);
             command.Parameters.AddWithValue("@firstName", Employee.FirstName);
-            command.Parameters.AddWithValue("@phoneNo", user.PhoneNo);
+            command.Parameters.AddWithValue("@phoneNo", Employee.PhoneNumber);
 
         }
 
-        private bool HasValidPrimaryKey(EmployeeDL employee)
+        private bool HasValidPrimaryKey(EmployeeDm employee)
         {
-            if (Employee == null) return false;
-            if (!(Employee is EmployeeDL)) return false;
-            if (Employee.EmployeeId.Equals("")) return false;
+            if (employee == null) return false;
+            if (!(employee is EmployeeDm)) return false;
+            if (employee.EmployeeId.Equals("")) return false;
             return true;
         }
     }

@@ -33,3 +33,11 @@ public class InsertEmployeeDm
 
 
 }
+public class Timesheet
+{
+    public String DOW { get; set; }
+    public DateTime Date { get; set; }
+    public TimeZone ClockIn { get; set; }
+    public TimeZone ClockOut { get; set; }
+    public int DailyHours { get; set; }
+}

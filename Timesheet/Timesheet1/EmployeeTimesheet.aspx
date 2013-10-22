@@ -10,17 +10,24 @@
     <link rel="stylesheet" href="css/headerReports.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/formStyle.css" />
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 158px;
+            margin-top: 235px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
     
     <div id="Timesheet" dir="ltr"  >
-    <asp:GridView ID="grdViewUser" runat="server" class="grdViewUsers" AutoGenerateColumns="False" OnSelectedIndexChanged="grdViewUser_SelectedIndexChanged">
+    <asp:GridView ID="grdViewUser" runat="server" class="grdViewUsers" AutoGenerateColumns="False" OnSelectedIndexChanged="grdViewUser_SelectedIndexChanged" CssClass="auto-style1" Height="185px" Width="842px">
             <Columns>
-            <asp:BoundField DataField="Day" HeaderText="Day" DataFormatString="Monday" />
-                <asp:BoundField DataField="Project1" HeaderText="FROM" />
-                <asp:BoundField DataField="Project2" HeaderText="TO" />
-                <asp:BoundField DataField="Project3" HeaderText="Number of Hours" />
+            <asp:BoundField DataField="Day" HeaderText="DOW" DataFormatString="Monday" />
+                <asp:BoundField HeaderText="Date" />
+                <asp:BoundField HeaderText="Clock In" />
+                <asp:BoundField HeaderText="Clock Out" />
+                <asp:BoundField DataField="Project3" HeaderText="Daily Hours" />
                 
               
                 </Columns>

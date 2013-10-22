@@ -105,6 +105,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="AddDailyTimesheet.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -186,6 +187,7 @@
     <Content Include="Scripts\jquery.datepick.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="startpage.aspx" />
     <Content Include="styles\jquery.datepick.css" />
     <Content Include="Timesheet.aspx" />
     <Content Include="favicon.ico" />
@@ -193,6 +195,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDailyTimesheet.aspx.cs">
+      <DependentUpon>AddDailyTimesheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddDailyTimesheet.aspx.designer.cs">
+      <DependentUpon>AddDailyTimesheet.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -243,7 +252,16 @@
     <Compile Include="EmployeeTimesheet.aspx.designer.cs">
       <DependentUpon>EmployeeTimesheet.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MasterPageAdmin.master.cs" />
+    <Compile Include="MasterPageAdmin.master.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="startpage.aspx.cs">
+      <DependentUpon>startpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="startpage.aspx.designer.cs">
+      <DependentUpon>startpage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Timesheet.aspx.cs">
       <DependentUpon>Timesheet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

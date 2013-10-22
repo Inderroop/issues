@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection\DBConnection.cs" />
+    <Compile Include="Daily Timesheet\DailyTimesheet.cs" />
     <Compile Include="Employee\EmployeeDL.cs" />
     <Compile Include="Employee\ProjectDL.cs" />
     <Compile Include="Employee\TaskDL.cs" />

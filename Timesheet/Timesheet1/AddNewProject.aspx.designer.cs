@@ -130,12 +130,12 @@ namespace Timesheet1 {
         protected global::System.Web.UI.WebControls.TextBox Num_of_Emp_TextBox;
         
         /// <summary>
-        /// Add_Proj_Button control.
+        /// Save_Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Add_Proj_Button;
+        protected global::System.Web.UI.WebControls.Button Save_Button;
     }
 }

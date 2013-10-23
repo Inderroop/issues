@@ -14,7 +14,37 @@ namespace Timesheet1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
+       
+        protected void BtnClockIn_Click(object sender, EventArgs e)
+        {
+            TxtClockIn.Text = DateTime.Now.ToString();
+        }
+
+        protected void BtnLunchBegin_Click(object sender, EventArgs e)
+        {
+            TxtLunchBegin.Text = DateTime.Now.ToString();
+        }
+
+        protected void BtnLunchEnds_Click(object sender, EventArgs e)
+        {
+            TxtLunchEnds.Text = DateTime.Now.ToString();
+        }
+
+        protected void BtnClockOut_Click(object sender, EventArgs e)
+        {
+            TxtClockOut.Text = DateTime.Now.ToString();
+        }
+
+        protected void BtnEmployeeId_Click(object sender, EventArgs e)
+        {
 
         }
+
+        
     }
 }
+
+
+    
+    

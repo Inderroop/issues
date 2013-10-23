@@ -26,7 +26,7 @@
         <p class="auto-style1">
             <asp:Button ID="add_profile_button" runat="server" OnClick="add_profile_button_Click" Text="ADD NEW EMPLOYEE PROFILE" Width="220px" />
             &nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="ADD NEW PROJECT" Width="203px" />
+            <asp:Button ID="Button2" runat="server" Text="ADD NEW PROJECT" Width="203px" OnClick="Button2_Click" />
         </p>
         <p class="auto-style1">
             <asp:Button ID="update_profile_button" runat="server" Text="UPDATE EMPLOYEE PROFILE" Width="220px" />

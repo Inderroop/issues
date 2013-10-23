@@ -27,5 +27,10 @@ namespace Timesheet1
         {
             Response.Redirect("Timesheet.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddNewProject.aspx");
+        }
     }
 }

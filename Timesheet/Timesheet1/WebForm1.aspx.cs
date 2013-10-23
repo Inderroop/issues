@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Timesheet1
 {
-    public partial class AddNewProject : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Add_Proj_Button_Click(object sender, EventArgs e)
         {
 
         }

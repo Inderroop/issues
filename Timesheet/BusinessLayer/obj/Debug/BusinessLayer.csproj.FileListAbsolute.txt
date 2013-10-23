@@ -7,3 +7,6 @@ C:\Timesheet\Timesheet1\BusinessLayer\bin\Debug\DataModelLayer.pdb
 C:\Timesheet\Timesheet1\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
 C:\Timesheet\Timesheet1\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Timesheet\Timesheet1\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\TerraNova\issues\Timesheet\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\TerraNova\issues\Timesheet\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\TerraNova\issues\Timesheet\BusinessLayer\obj\Debug\BusinessLayer.pdb

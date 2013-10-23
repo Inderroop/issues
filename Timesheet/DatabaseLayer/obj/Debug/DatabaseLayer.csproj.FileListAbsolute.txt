@@ -5,3 +5,10 @@ C:\Timesheet\Timesheet1\DatabaseLayer\bin\Debug\DataModelLayer.pdb
 C:\Timesheet\Timesheet1\DatabaseLayer\obj\Debug\DatabaseLayer.csprojResolveAssemblyReference.cache
 C:\Timesheet\Timesheet1\DatabaseLayer\obj\Debug\DatabaseLayer.dll
 C:\Timesheet\Timesheet1\DatabaseLayer\obj\Debug\DatabaseLayer.pdb
+D:\TerraNova\issues\Timesheet\DatabaseLayer\bin\Debug\DatabaseLayer.dll
+D:\TerraNova\issues\Timesheet\DatabaseLayer\bin\Debug\DatabaseLayer.pdb
+D:\TerraNova\issues\Timesheet\DatabaseLayer\bin\Debug\DataModelLayer.dll
+D:\TerraNova\issues\Timesheet\DatabaseLayer\bin\Debug\DataModelLayer.pdb
+D:\TerraNova\issues\Timesheet\DatabaseLayer\obj\Debug\DatabaseLayer.csprojResolveAssemblyReference.cache
+D:\TerraNova\issues\Timesheet\DatabaseLayer\obj\Debug\DatabaseLayer.dll
+D:\TerraNova\issues\Timesheet\DatabaseLayer\obj\Debug\DatabaseLayer.pdb
